@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>¡Apuntate a nuestra newsletter!</h1>
+    <hr>
+    <h4>Rellena este formulario para recibir una newsletter sobre Extemoduro en tu correo cada mes. No te preocupes que es gratis.</h4>
+    <form action = "recepcion.png" method = "GET">   
+        <label for = "nombre">Nombre:</label>
+        <input type = "text" id ="nombre" name ="nombre" placeholder = "Introduce tu nombre"><br><br>
+        <label for = "apellidos" >Apellidos:</label>
+        <input type = "apellidos" id ="apellidos" name ="apellidos" placeholder ="Introduce tus apellidos"><br><br>
+        <label for = "email">Correo electrónico:</label>
+        <input type = "email" id ="nombre" name ="nombre" placeholder = "Introduce tu email"><br><br>
+        <label for = "telefono">Número de teléfono:</label>
+        <input type = "tel" id ="telefono" name ="telefono" placeholder = "Introduce tu número"><br><br>
+        <fieldset>
+            <legend>¿En qué idioma quieres recibir la newsletter?</legend>
+            <input type = "radio" id="idioma" name = "idioma" value = "castellano">
+            <label for = "castellano">Castellano</label>
+            <input type = "radio" id="idioma" name = "idioma" value = "catalan">
+            <label for = "catalan">Catalán</label>
+            <input type = "radio" id="idioma" name = "idioma" value = "chino">
+            <label for = "chino">Inglés</label>
+        </fieldset><br>
+        <label for="pais">País: </label>
+        <select id="pais" name="pais">
+            <option value=""disabled>Seleccione un país</option>
+            <option value="España">España</option>
+            <option value="France">France</option>
+            <option value="Deutschland">Deutschland</option>
+            <option value="Italia">Italia</option>
+            <option value="Perú">Perú</option>
+        </select><br><br>
+        <fieldset>
+            <legend>¿Qué deseas leer en la newsletter?</legend>
+                <input type="checkbox" id="noticias" name="interes" value="noticias">
+                <label for="noticias">Noticias del grupo</label>
+            
+                <input type="checkbox" id="historia" name="interes" value="historia">
+                <label for="historia">Historia y curiosidades</label>
+        
+                <input type="checkbox" id="letras" name="interes" value="letras">
+                <label for="letras">Letras y significado</label>
+            
+                <input type="checkbox" id="discografia" name="interes" value="discografia">
+                <label for="discografia">Discografía</label>
+            
+                <input type="checkbox" id="merch" name="interes" value="merch">
+                <label for="merch">Merchandising</label>
+            
+                <input type="checkbox" id="videoclips" name="interes" value="videoclips">
+                <label for="videoclips">Videoclips y documentales</label>
+           
+                <input type="checkbox" id="collabs" name="interes" value="collabs">
+                <label for="collabs">Colaboraciones</label>
+           
+                <input type="checkbox" id="concursos" name="interes" value="concursos">
+                <label for="concursos">Concursos y sorteos</label>
+            
+                <input type="checkbox" id="entrevistas" name="interes" value="entrevistas">
+                <label for="entrevistas">Entrevistas</label>
+            
+        </fieldset><br>
+        🚨(Al enviar este formulario aceptas que te enviemos la newsletter y recibirás una notificación cuando te llegue al correo.)🚨<br><br>
+        <button type="submit"> Enviar datos</button><br><br>
+        
+        
+    </form>
+</body>
+</html>
